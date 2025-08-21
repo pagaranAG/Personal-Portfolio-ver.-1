@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website portfolio of Adrienne Pagaran">
+    <title>My Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="view/styles/style.css">
+    
+</head>
+<body>
+  <!-- NAVIGATION BAR  -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body">
+    <div class="container-fluid">
+      <a class="navbar-brand gradient-brand" href="#home" onclick="location.reload(); return false;">AP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link " href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="controllers/scripts/navbar-scroll.js"></script>
+  <script src="controllers/scripts/refresh.js"></script>
+  
+  <!-- HOME SECTION -->
+  <section id="home">
+  <div class="home-section">
+    <!-- LEFT HOME -->
+    <div class="left-home">
+      <h1 class="title-home appear-up">
+        Hello! I'm <span class="gab appear-up">Gab</span>
+      </h1>
+      <h3 class="sub-home appear-up">I chase ideas, explore systems and turn</h3>
+      <h3 class="sub-home appear-up">imagination into interactive projects one.</h3>
+      <h3 class="sub-home appear-up">
+        line of code at a time.
+        <a href="view/assets/Pagaran_Resume.pdf" download class="download-cv-btn-inline">
+          <img src="view/assets/document.png" alt="Document Icon" class="cv-icon">
+          <span>Download my CV</span>
+        </a>
+      </h3>
+    </div>
+      <!-- RIGHT HOME -->
+      <div class="right-home">
+        <img src="view/assets/self icons/me.png" alt="Me" class="me-img">       
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-section">
+        <h1 class="about-me-text">About Me</h1>
+        <div class="about-content-row">
+      <div class="left-about">
+        <img src="view/assets/self icons/about_self.jpg" alt="About Me" class="about-self-img">
+      </div>
+      <div class="right-about">
+        <p class="sub-about">
+          I am Adrienne Pagaran, a passionate 3rd-year Computer Science student at NU Laguna
+          with a deep curiosity for how technology shapes the world. I'm
+          driven by a genuine willingness to learn everything my course has
+          to offer from core fundamentals to emerging trends.
+          I’m constantly exploring, experimenting, and picking up new skills
+          to stay ahead in the ever-evolving tech industry. Whether it’s diving
+          into code or understanding systems, I’m always eager to grow and
+          challenge myself.
+        </p>                       
+      </div>
+  </div>
+</div>
+  </section>
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="skills-section">
+      <h1 class="skills-text">Skills</h1>
+      <div class="skills-grid">
+        <div class="skill-box"><img src="view/assets/languageicons/cplusplus-icon.svg" alt="C++"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/css3-icon.svg" alt="CSS3"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/html5-icon.svg" alt="HTML5"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/javascript-icon.svg" alt="JavaScript"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/python-icon.svg" alt="Python"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/java-icon.svg" alt="Java"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/php-icon.svg" alt="PHP"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/mysql-icon.svg" alt="MySQL"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/github-original.svg" alt="Git"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/linux-icon.svg" alt="Linux"></div>
+        <div class="skill-box"><img src="view/assets/languageicons/csharp-icon.svg" alt="C#"></div>
+      </div>
+    </div>
+  </section>
+  <!-- EDUCATION SECTION -->
+  <section id="education">
+    <div class="education-section">
+      <h1 class="education-text">Education</h1>
+      <div class="education-timeline">
+        <div class="education-box">
+          <div class="edu-info">
+            <img src="view/assets/school icons/stmanila.png" alt="St Ambrose" class="nu-logo">
+            <div>
+              <h2 class="school-name">St. Ambrose Grade School of Manila</h2>
+              <p>Pre-School</p>
+              <p class="edu-address">Alma Jose, Caloocan, 1400 Metro Manila</p>
+              <p class="edu-years">2010 - 2011</p>
+            </div>
+          </div>
+          <div class="edu-achievements">
+            <ul>
+              <li>Academic Achiever (Nursery to Prep)</li>              
+            </ul>
+          </div>
+        </div>
+        <div class="education-connector"></div>
+        <!-- TRACE College -->
+        <div class="education-box">
+          <div class="edu-info">
+            <img src="view/assets/school icons/tcollege.png" alt="TRACE College Logo" class="nu-logo">
+            <div>
+              <h2 class="school-name">TRACE College</h2>
+              <p>Primary Education, Junior High School, Senior High School (STEM)</p>
+              <p class="edu-address">4030 El Danda St. Los Baños, Laguna</p>
+              <p class="edu-years">2012 - 2023</p>
+            </div>
+          </div>
+          <div class="edu-achievements">
+            <ul>
+              <li>Academic Achiever</li>
+              <li>Trace Concert Club Member (2023)</li>
+              <li>Swimming Varsity (2015-16)</li>
+            </ul>
+          </div>
+        </div>        
+        <div class="education-connector"></div>
+        <!-- National University-Laguna -->
+        <div class="education-box">
+          <div class="edu-info">
+            <img src="view/assets/school icons/NU-icon.png" alt="NU Laguna Logo" class="nu-logo">
+            <div>
+              <h2 class="school-name">National University-Laguna</h2>
+              <p>BS Computer Science (Current)</p>
+              <p class="edu-address">Km.53 Pan-Philippine Hwy. Calamba, 4029 Laguna</p>
+              <p class="edu-years">2025 - Current</p>
+            </div>
+          </div>
+          <div class="edu-achievements">
+            <ul>
+              <li>Player for NUAG (2023-2025)</li>
+              <li>Membership Officer at MSC (Current)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="projects-section">
+      <h1 class="projects-text">Projects</h1>
+      <div class="projects-grid">
+        <div class="project-box">
+          <img src="view/assets/project pictures/elbigame.png" alt="ELBI Foodtrip" class="project-img">
+          <div class="project-name">ELBI Foodtrip (Scratch Game)</div>
+          <div class="project-langs">
+            <span class="project-lang-badge">Scratch</span>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="view/assets/project pictures/remindarf.png" alt="RemindARF" class="project-img">
+          <div class="project-name">RemindARF (Mobile App for Students and Teachers)</div>
+          <div class="project-langs">
+            <span class="project-lang-badge">Android Studio</span>
+            <span class="project-lang-badge">Java</span>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="view/assets/project pictures/nu-hub.png" alt="NU HUB" class="project-img">
+          <div class="project-name">NU HUB (Website)</div>
+          <div class="project-langs">
+            <span class="project-lang-badge">PHP</span>
+            <span class="project-lang-badge">HTML</span>
+            <span class="project-lang-badge">CSS</span>
+            <span class="project-lang-badge">MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="contact-section">
+      <div class="contact-box">
+        <h1 class="contact-title">Get in Touch with me</h1>
+        <p class="contact-desc">
+          Whether it’s a simple bug or a fresh prototype, I’m excited to collaborate and tinker our way to something cool.
+        </p>
+        <div class="contact-links">
+          <a class="contact-link-btn" href="https://www.facebook.com/agxp930/" target="_blank">
+            <img src="view/assets/contact icons/facebook.png" alt="Facebook" class="contact-icon">
+            Facebook
+          </a>
+          <a class="contact-link-btn" href="https://github.com/pagaranAG" target="_blank">
+            <img src="view/assets/contact icons/github.png" alt="GitHub" class="contact-icon">
+            GitHub
+          </a>
+          <a class="contact-link-btn" href="https://linkedin.com/" target="_blank">
+            <img src="view/assets/contact icons/linkedin.png" alt="LinkedIn" class="contact-icon">
+            LinkedIn
+          </a>
+          <a class="contact-link-btn" href="mailto:your@email.com">
+            <img src="view/assets/contact icons/mail.png" alt="Mail" class="contact-icon">
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+   <footer class="footer-section">
+    <hr class="footer-line">
+    <div class="footer-text">
+      © 2025 Adrienne Pagaran | All Rights Reserved
+    </div>
+  </footer>
+</body>
+</html>
