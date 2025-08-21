@@ -1,2 +1,4 @@
 # Personal-Portfolio-ver.-1
-1st version of my Portfolio
+This is my first version of my Portfolio as it is a Project for an Academic Submission
+#Live Website Demo
+
